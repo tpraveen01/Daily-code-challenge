@@ -9,11 +9,7 @@ class Solution {
             }else{
                 oddsum+=num.charAt(i)-'0';
             }
-            if(evensum==oddsum){
-                return true;
-            }
         }
-        // return evensum==oddsum;
-        return false;
+        return evensum==oddsum;
     }
 }
